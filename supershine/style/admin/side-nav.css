@@ -1,0 +1,97 @@
+.side-nav-wrapper {
+    width: 240px;
+    height: 100vh;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    display: grid;
+    border-right: 1px solid #eee;
+}
+
+ul li {
+    height: 1.6em;
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    display: flex;
+    place-items: center;
+    column-gap: .5em;
+    color: #9b59b6;
+}
+
+ul li a span {
+    color: #9b59b6;
+}
+
+ul li a img {
+    width: 40px;
+    height: 40px;
+}
+
+.logo {
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    place-items: center;
+}
+
+.logo li .admin {
+    color: #bdc3c7;
+}
+
+.admin {
+    padding: 0 .5em;
+    display: grid;
+    place-items: flex-end;
+}
+
+.admin-info {
+    margin: 1.2em 0;
+}
+
+figure {
+    width: 100%;
+    height: 33%;
+    border: 1px solid #eee;
+    background: #fcfcfc;
+    border-radius: 5px;
+    color: #3498db;
+    padding: 0 .5em;
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+}
+
+figure img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #333;
+}
+
+figure a {
+    display: flex;
+    place-content: center;
+}
+
+figure a svg {
+    width: 1.4em;
+    color: red;
+}
+
+.lists li a span {
+    border: 1px solid #333;
+    color: #9b59b6;
+}
+
+.none {
+    display: none;
+}
+
+.wrappers {
+    display: flex;
+}

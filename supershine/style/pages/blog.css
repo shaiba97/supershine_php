@@ -1,0 +1,49 @@
+.wrapper-blog .blog {
+    display: grid;
+    row-gap: 18vh;
+}
+
+.wrapper-blog .blog .blog-image {
+    width: 100%;
+    height: 50vh;
+}
+
+.wrapper-blog .blog .blog-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.wrapper-blog .blog .blog-image .blog-text {
+    color: #8b8b8b;
+}
+
+.wrapper-blog .blog .blog-image .blog-text p {
+    text-align: justify;
+    writing-mode: horizontal-tb;
+    font-size: 2.4ch;
+}
+
+@media (min-width: 300px) and (max-width: 811px) {
+    .wrapper-blog .title {
+        height: 20vh;
+    }
+    .wrapper-blog .blog {
+        display: grid;
+        row-gap: 10vh;
+    }
+    .wrapper-blog .blog .blog-image {
+        width: 100%;
+        height: 25vh;
+    }
+    .wrapper-blog .blog .blog-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    .wrapper-blog .divider {
+        height: 18vh;
+    }
+}

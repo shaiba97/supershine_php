@@ -1,0 +1,38 @@
+.wrapper-contact .container {
+    width: 100%;
+}
+
+.wrapper-contact .contact {
+    height: 80vh;
+    display: grid;
+    place-content: center;
+    row-gap: 2em;
+}
+
+.wrapper-contact .contact form .two {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+}
+
+.wrapper-contact .contact .social-media {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+}
+
+.wrapper-contact .contact .social-media svg {
+    width: 2em;
+}
+
+.wrapper-contact .contact .social-media .facebook {
+    color: #1877F2;
+}
+
+.wrapper-contact .contact .social-media .instagram {
+    color: #E4405F;
+}
+
+.wrapper-contact .contact .social-media .snapchat {
+    color: #020202;
+}

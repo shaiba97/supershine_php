@@ -1,0 +1,34 @@
+.title {
+    width: 100%;
+    height: 40vh;
+    color: #cccccc;
+    display: grid;
+    place-content: center;
+    place-items: center;
+}
+
+.title h1 {
+    text-transform: uppercase;
+}
+
+.divider {
+    width: 100%;
+    height: 30vh;
+}
+
+.errors {
+    text-align: center;
+    border: 1px solid #dc3545;
+    border-radius: 5px;
+}
+
+@media (min-width: 300px) and (max-width: 811px) {
+    .title {
+        width: 100%;
+        height: 30vh;
+        color: #cccccc;
+        display: grid;
+        place-content: center;
+        place-items: center;
+    }
+}

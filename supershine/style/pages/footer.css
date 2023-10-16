@@ -1,0 +1,15 @@
+footer {
+    height: 15vh;
+    background-color: #3498db;
+    color: #fff;
+}
+
+footer .container {
+    height: 100%;
+    display: grid;
+    place-content: center;
+}
+
+footer .container a {
+    color: #fff;
+}

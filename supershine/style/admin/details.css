@@ -1,0 +1,17 @@
+/* Member */
+
+.member-detail {
+    display: flex;
+}
+
+.member-detail img {
+    width: 150px;
+    height: 150px;
+}
+
+
+/* testimonial */
+
+.testimonial-detail .row img {
+    height: 50vh;
+}

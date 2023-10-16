@@ -1,0 +1,10 @@
+.title {
+    height: 30vh;
+    display: grid;
+    place-content: center;
+    color: #ccc;
+}
+
+.back a {
+    background-color: #fff;
+}

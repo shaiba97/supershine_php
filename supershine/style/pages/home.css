@@ -1,0 +1,133 @@
+.wrapper-home .hero-section {
+    height: 80vh;
+}
+
+.wrapper-home .hero-section .carousel {
+    height: 100%;
+    z-index: -2;
+}
+
+.wrapper-home .hero-section img {
+    width: 100vw;
+    height: 80vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+.wrapper-home .hero-section .hero {
+    position: absolute;
+    height: 80vh;
+    display: grid;
+    place-items: center;
+}
+
+.wrapper-home .hero-section .hero-text {
+    width: 100vw;
+    background-color: #e0d8c8;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.wrapper-home .hero-section a {
+    background-color: #9b59b6;
+    color: #fff;
+}
+
+.wrapper-home .why-us {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+}
+
+.wrapper-home .why-us .title {
+    width: 100%;
+    background-color: #9b59b6;
+    display: grid;
+    place-content: center;
+    place-items: center;
+}
+
+.wrapper-home .why-us .title h1 {
+    color: #fff;
+    font-size: 5em;
+    text-transform: uppercase;
+}
+
+.wrapper-home .why-us .content {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.wrapper-home .why-us .box {
+    display: grid;
+    place-content: center;
+    place-items: center;
+    gap: 2em;
+    padding: 1em;
+    border: none;
+}
+
+.wrapper-home .why-us svg {
+    width: 5em;
+    color: #3498db;
+}
+
+.wrapper-home .why-us span {
+    font-weight: 600;
+}
+
+.wrapper-home .contact {
+    width: 100%;
+    height: 50vh;
+    display: grid;
+}
+
+.wrapper-home .contact .content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+}
+
+.wrapper-home .contact .content .box {
+    border: none;
+}
+
+.wrapper-home .contact .content .box svg {
+    width: 5em;
+}
+
+.wrapper-home .contact .content .facebook {
+    color: #1877F2;
+}
+
+.wrapper-home .contact .content .instagram {
+    color: #E4405F;
+}
+
+.wrapper-home .contact .content .snapchat {
+    color: #020202;
+}
+
+.wrapper-home .contact h3 {
+    text-transform: uppercase;
+}
+
+.wrapper-home .books {
+    border-radius: 10px;
+    width: 100%;
+    height: 30vh;
+    background-color: #9b59b6;
+    color: #fff;
+    text-decoration: none;
+    display: grid;
+    place-content: center;
+}
+
+.wrapper-home .books .book {
+    color: #fff;
+    font-size: 7ch;
+}
+
+
+/* @media (min-width: 300px) and (max-width: 811px) */

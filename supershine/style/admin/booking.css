@@ -1,0 +1,33 @@
+.wrapper-booking .card {
+    padding: 1em;
+    display: flex;
+    place-content: space-between;
+}
+
+.wrapper-booking .card .back .btn {
+    border: 1px solid #000;
+    color: #000;
+}
+
+.wrapper-booking .card ul li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper-booking .card ul li .right {
+    width: 20%;
+    display: flex;
+    place-items: center;
+    gap: .5em;
+    font-weight: 600;
+}
+
+.wrapper-booking .card ul li .right svg {
+    width: 1.3em;
+    font-weight: 600;
+}
+
+.wrapper-booking .card ul li .left {
+    width: 80%;
+}

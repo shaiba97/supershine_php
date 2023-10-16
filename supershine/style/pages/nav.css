@@ -1,0 +1,164 @@
+.wrapper-menu-nav {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    background-color: #fff;
+}
+
+.wrapper-menu-nav .navs {
+    padding: 1em 0;
+}
+
+.wrapper-menu-nav .container .content .phone,
+.wrapper-menu-nav .container .content .nav-list {
+    display: none;
+}
+
+.wrapper-menu-nav .container .content .d-flex {
+    display: flex;
+    place-items: center;
+}
+
+.wrapper-menu-nav .container .content .d-flex ul .nav-item .links:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.wrapper-menu-nav .container .content .d-flex ul .nav-item .book {
+    background-color: #9b59b6;
+    color: #fff;
+    margin-right: 1em;
+}
+
+.wrapper-menu-nav .justify-content-between .nav-pills a img {
+    width: 50px;
+    height: 50px;
+}
+
+.wrapper-menu-nav .contact {
+    padding: .5em 0;
+    background-color: #f4f4f4;
+}
+
+.wrapper-menu-nav .contact .container {
+    display: flex;
+}
+
+.wrapper-menu-nav .container .normal-phones {
+    width: 100%;
+    display: flex;
+    place-content: space-between;
+    place-items: center;
+    gap: 1em;
+}
+
+.wrapper-menu-nav .container .normal-phones .phones {
+    display: flex;
+    place-items: center;
+    gap: 1em;
+}
+
+.wrapper-menu-nav .container .normal-phones .phones .numbers {
+    display: flex;
+    place-items: center;
+    gap: .5em;
+}
+
+.wrapper-menu-nav .container .normal-phones .phones .icons {
+    display: flex;
+    place-items: center;
+    gap: .5em;
+    text-transform: uppercase;
+}
+
+.wrapper-menu-nav .container .normal-phones .phones .icons svg {
+    color: #25D366;
+}
+
+.wrapper-menu-nav .contact .phone-phones {
+    width: 100%;
+    display: none;
+}
+
+.wrapper-menu-nav .container .social-media {
+    display: flex;
+    column-gap: 1em;
+}
+
+.wrapper-menu-nav .container .social-media .facebook {
+    color: #1877F2;
+}
+
+.wrapper-menu-nav .container .social-media .instagram {
+    color: #E4405F;
+}
+
+.wrapper-menu-nav .container .social-media .snapchat {
+    color: #020202;
+}
+
+.wrapper-menu-nav .container .social-media svg {
+    width: 1em;
+}
+
+.block {
+    display: block;
+}
+
+@media (min-width: 300px) and (max-width: 811px) {
+    .wrapper-menu-nav .nav-links {
+        display: grid;
+        justify-content: end;
+    }
+    .wrapper-menu-nav #nav-list {
+        display: grid;
+        background-color: #3498db;
+        color: #fff;
+    }
+    .wrapper-menu-nav .nav-list svg {
+        color: #fff;
+    }
+    .wrapper-menu-nav .justify-content-end {
+        display: none;
+    }
+    .wrapper-menu-nav .phone {
+        z-index: 1;
+        border-top: 1px solid #3498db;
+        border-bottom: 1px solid #3498db;
+        background-color: #3498db;
+    }
+    .wrapper-menu-nav .phone ul {
+        position: sticky;
+        z-index: 3;
+        width: 100%;
+    }
+    .wrapper-menu-nav .phone ul li {
+        width: 100%;
+        list-style: none;
+    }
+    .wrapper-menu-nav .phone ul li a {
+        width: 100%;
+        color: #fff;
+        font-size: 100%;
+    }
+    .wrapper-menu-nav .contact .normal-phones {
+        display: none;
+    }
+    .wrapper-menu-nav .contact .phone-phones .phones {
+        width: 100%;
+        display: flex;
+        place-content: space-between;
+        place-items: center;
+    }
+    .wrapper-menu-nav .contact .phone-phones {
+        display: block;
+    }
+    .wrapper-menu-nav .contact .btn {
+        background-color: #9b59b6;
+        color: #fff;
+    }
+    .numbers {
+        display: flex;
+        column-gap: .5em;
+    }
+}

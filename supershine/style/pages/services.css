@@ -1,0 +1,27 @@
+.wrapper-services ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+}
+
+.wrapper-services ul li {
+    list-style: none;
+}
+
+.wrapper-services ul li h3 {
+    background-color: #1abc9c;
+    color: #fff;
+    padding: .5em;
+    border-radius: 5px;
+}
+
+@media (min-width: 300px) and (max-width: 811px) {
+    .wrapper-services .title {
+        height: 20vh;
+    }
+    .wrapper-services ul {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1em;
+    }
+}

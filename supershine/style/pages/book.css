@@ -1,0 +1,47 @@
+.booking {
+    width: 100%;
+    height: fit-content;
+}
+
+.booking .info {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: grid;
+    place-content: center;
+    place-items: center;
+}
+
+.booking form {
+    padding: 5em;
+    display: grid;
+    place-content: center;
+    row-gap: 5px;
+}
+
+.booking .two {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+}
+
+.booking form .btn {
+    background-color: #9b59b6;
+    color: #fff;
+}
+
+.booking .customer {
+    display: flex;
+    place-items: center;
+    column-gap: 1em;
+}
+
+@media (min-width: 300px) and (max-width: 811px) {
+    .booking {
+        width: 100%;
+        height: 50vh;
+    }
+    .booking form .two input {
+        width: 44vw;
+    }
+}

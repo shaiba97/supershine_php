@@ -1,0 +1,29 @@
+ .container .content {
+     display: flex;
+ }
+ 
+ .container .content .uploads {
+     width: 80%;
+ }
+ 
+ .container .content .config {
+     width: 20%;
+ }
+ 
+ .container .content .config ul li {
+     list-style: none;
+ }
+ 
+ .container .content .config {
+     position: sticky;
+     top: 0;
+     height: 40vh;
+     display: grid;
+     place-content: center;
+ }
+ 
+ .container .content .config ul li a {
+     text-decoration: none;
+     color: #b0b0b0;
+     text-transform: capitalize;
+ }

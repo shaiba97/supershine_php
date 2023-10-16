@@ -1,0 +1,95 @@
+.wrapper-about .about {
+    display: grid;
+}
+
+.wrapper-about .about figure {
+    display: flex;
+    place-content: center;
+    gap: 1em;
+}
+
+.wrapper-about .about figure .image img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: center;
+}
+
+.wrapper-about .about figure figcaption {
+    width: calc(100% - 300px);
+    color: #555;
+}
+
+.wrapper-about .about figure figcaption .person {
+    display: grid;
+    place-items: center;
+}
+
+.wrapper-about .about figure figcaption p {
+    text-align: justify;
+    color: #8b8b8b;
+}
+
+.wrapper-about .about figure:nth-child(2) {
+    display: flex;
+}
+
+.wrapper-about .about figure:nth-child(2) .image {
+    display: flex;
+    order: 2;
+}
+
+.wrapper-about .about .about-us {
+    height: 60vh;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    place-items: center;
+}
+
+.wrapper-about .about .about-us h3 {
+    font-size: 2em;
+    font-weight: 600;
+    color: #9b59b6;
+}
+
+.wrapper-about .about .about-us p {
+    text-align: justify;
+    padding: 0 1em;
+    color: #555;
+}
+
+@media (min-width: 300px) and (max-width: 811px) {
+    .wrapper-about .about .figures {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2em;
+    }
+    .wrapper-about .about figure {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .wrapper-about .about figure .image img {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+        object-position: center;
+    }
+    .wrapper-about .title {
+        height: 20vh;
+    }
+    .wrapper-about .about figure figcaption {
+        width: 100%;
+        color: #555;
+    }
+    .wrapper-about .about figure:nth-child(2) {
+        display: block;
+    }
+    .wrapper-about .about figure:nth-child(2) .image {
+        display: block;
+        order: 0;
+    }
+}

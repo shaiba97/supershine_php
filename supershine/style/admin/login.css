@@ -1,0 +1,42 @@
+.login header {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    place-content: start;
+    place-items: center;
+}
+
+.login header img {
+    width: 50px;
+    height: 50px;
+}
+
+.login .login-form {
+    width: 100%;
+    height: 74vh;
+    display: grid;
+    place-content: center;
+    place-items: center;
+}
+
+.login form {
+    display: grid;
+    gap: 1em;
+}
+
+.login form .inputs {
+    width: 20em;
+    display: grid;
+    gap: .5em;
+}
+
+.login form .btn {
+    background-color: #9b59b6;
+    color: #fff;
+}
+
+.errors {
+    text-align: center;
+    border: 1px solid #dc3545;
+    border-radius: 5px;
+}
